@@ -11,3 +11,7 @@ sum_exercise:
   controller: App\Controller\MathController::sum
   methods:
     - GET
+
+homepage:
+    path: /
+    controller: App\Controller\HomepageController::home

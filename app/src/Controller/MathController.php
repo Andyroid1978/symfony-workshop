@@ -8,7 +8,7 @@ use Symfony\Component\HttpFoundation\JsonResponse;
 class MathController extends AbstractController
 {
 
-    public function sum(int $value1, int $value2)
+    public function sum(int $value1, int $value2): JsonResponse
     {
         $resp = [
             'value1' => $value1,
